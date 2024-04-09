@@ -215,7 +215,7 @@ export default class App {
         };
     }
 
-    guardarPersona(personaId, modal) {
+    guardarPersona = (personaId, modal) => {
         const modalRegistrarFormInputs = this.obtenerRegistrarModalForm();
         const paisOpcion = modalRegistrarFormInputs.pais.options[modalRegistrarFormInputs.pais.selectedIndex];
         const datos = {
