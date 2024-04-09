@@ -36,4 +36,6 @@ build/
 /node
 /.mvn/wrapper/maven-wrapper.jar
 /src/main/resources/static/paises/*
+/src/main/resources/static/personas/*
+/src/main/resources/static/webfonts/*
 
