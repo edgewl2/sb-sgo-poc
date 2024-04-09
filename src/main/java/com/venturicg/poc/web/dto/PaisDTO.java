@@ -6,6 +6,11 @@ public class PaisDTO implements Serializable {
     private String id;
     private String nombre;
 
+    public PaisDTO() {
+        this.id = null;
+        this.nombre = null;
+    }
+
     public PaisDTO(String id, String nombre) {
         this.id = id;
         this.nombre = nombre;
@@ -25,5 +30,13 @@ public class PaisDTO implements Serializable {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    @Override
+    public String toString() {
+        return "{"
+                + "\"id\":\"" + id + "\","
+                + "\"nombre\":\"" + nombre + "\""
+                + "}";
     }
 }
