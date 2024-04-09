@@ -9,4 +9,6 @@ public interface PaisesService {
 
     List<Pais> obtenerPaises();
 
+    Pais buscar(String id);
+
 }
