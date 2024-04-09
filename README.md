@@ -43,6 +43,10 @@ De las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde
 
 Apuntar navegador a http://localhost:8080/paises
 
+### Nuevo en la PoC
+
+> Apuntar navegador a http://localhost:8080/personas
+
 # Enunciado prueba
 
 1) Se debe descargar la POC e implementar sobre ella <b>nuevos endpoints en la API REST existente</b> que permita listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. El recurso persona debe constar de los siguientes atributos:
